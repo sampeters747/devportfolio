@@ -31,10 +31,12 @@
     ------------------------
     ----- 1. Variables -----
     ------------------------
+    og: 30E015
+    #25d00b
 */
 
 // Define base and accent colors
-$base-color: #3498db;
+$base-color:#30E015;
 $base-color-hover: darken($base-color, 10%);
 
 // Define background colors
@@ -350,7 +352,7 @@ footer {
     height: 100vh;
     min-height: 500px;
     max-height: 1080px;
-    background: url(../images/lead-bg.jpg);
+    background: url(../images/cool-background.png);
     background-size: cover;
     padding: 15px;
     overflow: hidden;
@@ -652,6 +654,8 @@ footer {
 
 .project-image {
     float: left;
+    width: 100%;
+    max-width: 300px;
 }
 
 .project-info {
@@ -999,3 +1003,4 @@ footer {
     }
 
 }
+
